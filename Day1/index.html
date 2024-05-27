@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day1 Homework</title>
+</head>
+<body>
+    <h1>첫날에 배운 내용 바탕으로 과제를 vscode에서 작성하여 github로 올리고, Netlify로 배포하기.</h1>
+    <div>                     <!--진하게 표시-->
+        <p>안녕하세요 제 이름은 <strong>허영환</strong>입니다. 풀스택 개발자가 되고 싶습니다.</p>
+    </div>
+    <div>
+        <h2>좋아하는 음식</h2>
+        <ul>   <!--unoredered list의 약자-->
+            <li>김치찌게</li>
+            <li>삼겹살</li>
+            <li>소고기무국</li>   <!--list의 약자-->
+        </ul>
+    </div>
+    <p>    <!--이번엔 p써서 div와 차이 구분해보기-->
+        <h2>좋아하는 가수</h2>
+        <img src= "https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2022%2F03%2Fc-jamm-leaves-just-music-new-album-release-announce-01.jpg?cbr=1&q=90" 
+        width = "400" height="300"/>
+        <div>씨잼</div>
+        <a href = "https://youtu.be/F6OGixzNYgw?si=qicWnEhGRYyNh43L">킁 - 씨잼의 명반</a>
+    </p>
+    <!--아예 유튜브 영상 삽입해보기-->
+    <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/F6OGixzNYgw?si=voOi4qFUM6AhPyV3" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+    <div>
+        <h2>좋아하는 노래</h2>
+        <audio src="https://ccrma.stanford.edu/~jos/mp3/harpsi-cs.mp3" controls autoplay>
+            이 오디오 파일은 재생할 수 없습니다.
+        </audio>
+    </div>
+    <div>
+        <h2>인적사항</h2>
+        <table border="1" cellspacing="1">       <!--border : 테이블 경계선 굵기, cellspacing = "셀과 셀 사이의 여백"-->           
+            <tr>        <!--1행-->    <!--table row-->
+                <th>1행1열</th>       <!--table heading : heading이라 그런가 알아서 진하게 표시되는듯? -->
+                <th>1행2열</th>    
+            </tr>
+            <tr>        <!--2행-->
+                <td>2행1열</td>       <!--table data-->
+                <td>2행2열</td>
+            </tr>
+            <tr>        <!--3행-->
+                <td>3행1열</td>
+                <td>3행2열</td>
+            </tr>
+        </table>
+        <u>u는 underline의 약자. 즉 밑줄</u>
+    </div>
+    <div>
+        <h2>연락&문의</h2>
+        <input type="type" placeholder="궁금한 것이 있나요?"/>
+        <button>전송</button>
+    </div>
+
+<h2>마지막으로 audio 옵션들 table사용해서 정리해보기</h2>     <!--뒤늦게 알았는데, h태그도 줄바꿈을 지원한다. 위에 div태그들이 무의미해지네...-->
+<table border="1" >
+    <caption>audio 태그 옵션들</caption>
+    <tr>
+        <th>속성</th>
+        <th>속성값</th>
+        <th>설명</th>
+    </tr>
+    <tr>
+        <td>autoplay</td>
+        <td>autoplay</td>
+        <td>오디오 자동 실행</td>
+    </tr>
+    <tr>
+        <td>controls</td>
+        <td>controls</td>
+        <td>플레이나 정지버튼을 오디오 실행 제어기에 표시</td>
+    </tr>
+        <td>loop</td>
+        <td>loop</td>
+        <td>오디오 끝나면 자동재생</td>
+    <tr>
+        <td>muted</td>
+        <td>muted</td>
+        <td>오디오 음소거</td>
+    </tr>
+    <tr>
+        <td>preload</td>
+        <td>auto<br/>metadata<br/>none</td>   <!--br: 줄바꿈 태그-->
+        <td>페이지 로드 시 오디오 파일이 같이 로드되어야 하는지 여부와 방법</td>
+    </tr>
+    <tr>
+        <td>src</td>
+        <td>URL</td>
+        <td>오디오 파일의 위치</td>
+    </tr>
+</table>
+</br>
+</body>
+</html>
+
+<!--참고자료
+    https://velog.io/@roong-ra/HTML-%ED%91%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-table-%EA%B4%80%EB%A0%A8-%ED%83%9C%EA%B7%B8
+    https://mjmjmj98.tistory.com/123
+-->
