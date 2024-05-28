@@ -1,0 +1,40 @@
+.red{
+    color:red;
+    background-color: yellow;
+    text-align:center;
+}
+.border-blue{
+    border:1px solid blue;   /*테두리 두께, 종류, 색깔*/
+}
+.img-size{
+    width:200px;
+    height:200px;
+}
+.margin-space{
+    margin-top:40px;
+    margin-left:100px;        /*위랑 왼쪽 아래에 공간을 줌*/
+    margin-bottom:40px;
+}
+.padding-space{
+    padding-top:40px;        /*요소안쪽의 공간을 주는건 padding, 요소 밖에서 공간을 주는건 margin*/
+    padding-left:50px;
+}
+.new-style{
+    color:red;            /*이때까지 방법들이 클래스를 이용해 css부여하는 방법*/
+}  
+#new-style{
+    color:red;            /*이게 id를 이용한 css 부여, but 자바스크립트에서 주로 쓰이고, css에선 잘 안쓰임*/
+}
+
+
+/*  ## 복합선택자 이용한 스타일 부여
+
+p.new-style{    p태그에 있는 new-style클래스를 가진 태그만 선택
+}
+ 
+div .new-style{  띄어쓰기!!!! div태그의 후손들 중 new-style클래스를 가진 태그만 선택
+}                띄어쓰기가 없다면, div태그에 있는 new-class클래스를 가진 태그만 선택한다는 의미임
+
+div>.new-style{  얘는 div태그 밑에 후손들이 아닌 오직 자식에게만 적용됨
+}
+*/
