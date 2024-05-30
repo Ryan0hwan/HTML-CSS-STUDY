@@ -61,10 +61,6 @@
     position: absolute;
     right:0px;
     bottom:0px;
-    display:flex;
-
-    align-items:flex-end;
-    height: 100vh;
    
   }
   .box-top {
