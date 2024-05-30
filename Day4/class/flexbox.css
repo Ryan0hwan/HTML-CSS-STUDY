@@ -1,0 +1,37 @@
+.mother{
+   border:1px solid red;
+   display:flex;     /* 자식들이 세로정렬이 가로정렬로 바뀌었네???*/
+   justify-content: flex-end;  /*오른쪽으로 가네. flex-start로 설정하면 왼쪽으로 감 space-between하니까, 사이공간을 똑같이해서 나누네 */
+} /*flexbox는 웹사이트의 크기를 조절해도, 크기에 따라 사이즈도 같이 변함       space-around는 적당히 공간두고 나눔.*/
+
+/*  위는 가로버전 / 이건 세로버전(자식들이 가로정렬된채로 'ㅡ'모양)
+.mother{
+   border:1px solid red;
+   display:flex;
+   align-items:flex-end    끝으로 내림. 근데 엄마의 권한밖이라 이것만 있으면 안되고   flex-start와 center도 가능 
+   height:100vh            이게(100%로 범위 확장) 있어야, 끝으로 내림
+}
+*/
+
+/* 자식들을 세로로정렬 'ㅣ' 모양
+.mother{
+   border:1px solid red;
+   display:flex;
+   height:100vh;
+   flex-direction:column;   가로와 세로를 바꾸는 옵션, 자식들이 세로로 정렬됨
+   justify-content:flex-end  flex-direction:column옵션을 쓰면, align-items와 justify-content옵션이 서로 바뀌게 되는거지
+}
+*/
+
+
+.children{
+    background-color: blueviolet;
+    width:100px;
+    height:100px;
+}
+
+/*
+  justify-content는 가로로 요소를 움직임. 
+  align-items는 세로로 요소를 움직임
+  flex-dirention:column은 가로와 세로를 바꿈     헷갈리니까 flexbox froggy사이트에서 연습하며 좋음
+*/
