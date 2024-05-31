@@ -1,7 +1,6 @@
 body {                    /*태그에 스타일 줄때는, .안붙여  참고로 id이용할땐 #이용함 */
     display: contents;     /*요소들을 넣는 규칙임. float:right의 영향으로 인해 필요함.*/
  }
-   
  .navbar {
     float: right;
     margin: 10px;
