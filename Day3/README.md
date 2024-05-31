@@ -1,3 +1,3 @@
 # Day3 결과물
 
-https://htmlcssday3hw.netlify.app
+https://htmlcssday3hw.netlify.app/
